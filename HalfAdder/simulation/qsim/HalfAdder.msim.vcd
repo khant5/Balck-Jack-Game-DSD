@@ -1,0 +1,140 @@
+$comment
+	File created using the following command:
+		vcd file HalfAdder.msim.vcd -direction
+$end
+$date
+	Mon Nov 25 18:21:24 2019
+$end
+$version
+	ModelSim Version 10.3d
+$end
+$timescale
+	1ps
+$end
+
+$scope module HalfAdder_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var wire 1 # carry $end
+$var wire 1 $ sum $end
+$var wire 1 % sampler $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , sum~output_o $end
+$var wire 1 - carry~output_o $end
+$var wire 1 . b~input_o $end
+$var wire 1 / a~input_o $end
+$var wire 1 0 sum~0_combout $end
+$var wire 1 1 Mult0~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+x,
+x-
+0.
+0/
+x0
+x1
+$end
+#3155
+01
+#3469
+00
+#6670
+0-
+0#
+#6824
+0,
+0$
+#100000
+1!
+1"
+0%
+#100660
+1.
+#100670
+1/
+#103790
+11
+#107342
+1-
+1#
+#180000
+0!
+0"
+1%
+#180766
+0.
+#180776
+0/
+#183931
+01
+#187446
+0-
+0#
+#280000
+1!
+1"
+0%
+#280660
+1.
+#280670
+1/
+#283790
+11
+#287342
+1-
+1#
+#340000
+0!
+0"
+1%
+#340766
+0.
+#340776
+0/
+#343931
+01
+#347446
+0-
+0#
+#440000
+1!
+0%
+#440670
+1/
+#443588
+10
+#447002
+1,
+1$
+#480000
+0!
+1%
+#480776
+0/
+#483933
+00
+#487288
+0,
+0$
+#1000000

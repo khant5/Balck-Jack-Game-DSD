@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, D:/Files for school/Digital Systems/HalfAdder/HalfAdder.v
+source_file = 1, D:/Files for school/Digital Systems/HalfAdder/Waveform.vwf
+source_file = 1, D:/Files for school/Digital Systems/HalfAdder/output_files/Waveform1.vwf
+source_file = 1, D:/Files for school/Digital Systems/HalfAdder/db/HalfAdder.cbx.xml
+design_name = HalfAdder
+instance = comp, \sum~output\, sum~output, HalfAdder, 1
+instance = comp, \carry~output\, carry~output, HalfAdder, 1
+instance = comp, \b~input\, b~input, HalfAdder, 1
+instance = comp, \a~input\, a~input, HalfAdder, 1
+instance = comp, \sum~0\, sum~0, HalfAdder, 1
+instance = comp, \Mult0~0\, Mult0~0, HalfAdder, 1

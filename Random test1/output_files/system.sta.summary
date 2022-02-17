@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Presetv'
+Slack : -3.225
+TNS   : -23.561
+
+Type  : Slow 1200mV 85C Model Setup 'addv'
+Slack : -2.641
+TNS   : -12.405
+
+Type  : Slow 1200mV 85C Model Setup 'bcdAdder:comb_5|a[1]'
+Slack : -1.363
+TNS   : -8.363
+
+Type  : Slow 1200mV 85C Model Setup 'Clockv'
+Slack : -0.890
+TNS   : -5.891
+
+Type  : Slow 1200mV 85C Model Hold 'Clockv'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'bcdAdder:comb_5|a[1]'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'addv'
+Slack : 0.753
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Presetv'
+Slack : 2.084
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clockv'
+Slack : -3.000
+TNS   : -13.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'addv'
+Slack : -3.000
+TNS   : -10.710
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Presetv'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'bcdAdder:comb_5|a[1]'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Presetv'
+Slack : -2.894
+TNS   : -20.979
+
+Type  : Slow 1200mV 0C Model Setup 'addv'
+Slack : -2.258
+TNS   : -10.508
+
+Type  : Slow 1200mV 0C Model Setup 'bcdAdder:comb_5|a[1]'
+Slack : -1.275
+TNS   : -7.677
+
+Type  : Slow 1200mV 0C Model Setup 'Clockv'
+Slack : -0.757
+TNS   : -4.636
+
+Type  : Slow 1200mV 0C Model Hold 'Clockv'
+Slack : -0.067
+TNS   : -0.109
+
+Type  : Slow 1200mV 0C Model Hold 'bcdAdder:comb_5|a[1]'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'addv'
+Slack : 0.656
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Presetv'
+Slack : 1.914
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clockv'
+Slack : -3.000
+TNS   : -13.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'addv'
+Slack : -3.000
+TNS   : -10.710
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Presetv'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'bcdAdder:comb_5|a[1]'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Presetv'
+Slack : -1.055
+TNS   : -7.362
+
+Type  : Fast 1200mV 0C Model Setup 'addv'
+Slack : -0.815
+TNS   : -3.289
+
+Type  : Fast 1200mV 0C Model Setup 'bcdAdder:comb_5|a[1]'
+Slack : -0.548
+TNS   : -2.874
+
+Type  : Fast 1200mV 0C Model Setup 'Clockv'
+Slack : -0.439
+TNS   : -2.851
+
+Type  : Fast 1200mV 0C Model Hold 'bcdAdder:comb_5|a[1]'
+Slack : -0.219
+TNS   : -1.217
+
+Type  : Fast 1200mV 0C Model Hold 'Clockv'
+Slack : -0.007
+TNS   : -0.007
+
+Type  : Fast 1200mV 0C Model Hold 'addv'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Presetv'
+Slack : 0.977
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clockv'
+Slack : -3.000
+TNS   : -12.656
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'addv'
+Slack : -3.000
+TNS   : -9.567
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Presetv'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'bcdAdder:comb_5|a[1]'
+Slack : 0.424
+TNS   : 0.000
+
+------------------------------------------------------------

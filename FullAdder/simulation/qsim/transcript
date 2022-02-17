@@ -1,0 +1,35 @@
+# do FullAdder.do
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 06:50:44 on Nov 25,2019
+# vlog -work work FullAdder.vo 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 06:50:48 on Nov 25,2019, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 06:50:48 on Nov 25,2019
+# vlog -work work Waveform2.vwf.vt 
+# -- Compiling module FullAdder_vlg_sample_tst
+# -- Compiling module FullAdder_vlg_check_tst
+# -- Compiling module FullAdder_vlg_vec_tst
+# 
+# Top level modules:
+# 	FullAdder_vlg_vec_tst
+# End time: 06:50:49 on Nov 25,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -do "FullAdder.do" 
+# Start time: 06:50:50 on Nov 25,2019
+# Loading work.FullAdder_vlg_vec_tst
+# Loading work.FullAdder
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading work.FullAdder_vlg_sample_tst
+# Loading work.FullAdder_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform2.vwf.vt(178)
+#    Time: 1 us  Iteration: 0  Instance: /FullAdder_vlg_vec_tst/tb_out
+# End time: 06:50:55 on Nov 25,2019, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0

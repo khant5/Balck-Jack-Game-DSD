@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files for school/Digital Systems/random/simulation/qsim
+vrandom
+!s110 1575506750
+!i10b 1
+!s100 >S9k=Tl]<mBbGM>G;^l3C1
+IHQk`9a^R30jUJ9F=LnmHH1
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 dE:/Files for school/Digital Systems/random/simulation/qsim
+w1575506748
+8random.vo
+Frandom.vo
+L0 32
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1575506747.731000
+!s107 random.vo|
+!s90 -work|work|random.vo|
+!i113 1
+Z3 o-work work
+vrandom_vlg_check_tst
+Z4 !s110 1575506759
+!i10b 1
+!s100 Q_aL`gi_9_cIKT4e^zSfL2
+IID[]9]PoImYKgJ;PmRVd12
+R0
+R1
+Z5 w1575506736
+Z6 8Waveform49.vwf.vt
+Z7 FWaveform49.vwf.vt
+L0 60
+R2
+r1
+!s85 0
+31
+Z8 !s108 1575506754.939000
+Z9 !s107 Waveform49.vwf.vt|
+Z10 !s90 -work|work|Waveform49.vwf.vt|
+!i113 1
+R3
+vrandom_vlg_sample_tst
+R4
+!i10b 1
+!s100 7YmLf7DNz8_l72Bl`k=9X1
+I7_95FnAXdcMa73HH:O``00
+R0
+R1
+R5
+R6
+R7
+L0 30
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+vrandom_vlg_vec_tst
+R4
+!i10b 1
+!s100 KRJk`S`Ocee8eILk<baEl3
+I^_jo?J<zgCg9b2HLMnRdl2
+R0
+R1
+R5
+R6
+R7
+L0 306
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3

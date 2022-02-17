@@ -1,0 +1,7 @@
+module system(
+input Clock);
+
+flip_flop ff(
+.Clock(Clock));
+
+endmodule

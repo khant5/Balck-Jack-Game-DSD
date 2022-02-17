@@ -1,0 +1,898 @@
+|system
+Clockv => Clockv.IN2
+Presetv => Presetv.IN2
+Qv[0] << <GND>
+Qv[1] << <GND>
+Qv[2] << <GND>
+Qv[3] << <GND>
+Qv[4] << <GND>
+pv[0] << pv[0].DB_MAX_OUTPUT_PORT_TYPE
+pv[1] << pv[1].DB_MAX_OUTPUT_PORT_TYPE
+pv[2] << pv[2].DB_MAX_OUTPUT_PORT_TYPE
+pv[3] << pv[3].DB_MAX_OUTPUT_PORT_TYPE
+binv[0] => ~NO_FANOUT~
+binv[1] => ~NO_FANOUT~
+binv[2] => ~NO_FANOUT~
+binv[3] => ~NO_FANOUT~
+binv[4] => ~NO_FANOUT~
+bcdv[0] << <GND>
+bcdv[1] << <GND>
+bcdv[2] << <GND>
+bcdv[3] << <GND>
+bcdv[4] << <GND>
+bcdv[5] << <GND>
+bcdv[6] << <GND>
+bcdv[7] << <GND>
+bcd1v[0] => ~NO_FANOUT~
+bcd1v[1] => ~NO_FANOUT~
+bcd1v[2] => ~NO_FANOUT~
+bcd1v[3] => ~NO_FANOUT~
+segv[0] << bcd_to_seven_seg:btoseven.seg
+segv[1] << bcd_to_seven_seg:btoseven.seg
+segv[2] << bcd_to_seven_seg:btoseven.seg
+segv[3] << bcd_to_seven_seg:btoseven.seg
+segv[4] << bcd_to_seven_seg:btoseven.seg
+segv[5] << bcd_to_seven_seg:btoseven.seg
+segv[6] << bcd_to_seven_seg:btoseven.seg
+segv2[0] << bcd_to_seven_seg:btosevento.seg
+segv2[1] << bcd_to_seven_seg:btosevento.seg
+segv2[2] << bcd_to_seven_seg:btosevento.seg
+segv2[3] << bcd_to_seven_seg:btosevento.seg
+segv2[4] << bcd_to_seven_seg:btosevento.seg
+segv2[5] << bcd_to_seven_seg:btosevento.seg
+segv2[6] << bcd_to_seven_seg:btosevento.seg
+pv2[0] << pv2[0].DB_MAX_OUTPUT_PORT_TYPE
+pv2[1] << pv2[1].DB_MAX_OUTPUT_PORT_TYPE
+pv2[2] << pv2[2].DB_MAX_OUTPUT_PORT_TYPE
+pv2[3] << pv2[3].DB_MAX_OUTPUT_PORT_TYPE
+segv3[0] << bcd_to_seven_seg:add1.seg
+segv3[1] << bcd_to_seven_seg:add1.seg
+segv3[2] << bcd_to_seven_seg:add1.seg
+segv3[3] << bcd_to_seven_seg:add1.seg
+segv3[4] << bcd_to_seven_seg:add1.seg
+segv3[5] << bcd_to_seven_seg:add1.seg
+segv3[6] << bcd_to_seven_seg:add1.seg
+segv4[0] << bcd_to_seven_seg:ad2.seg
+segv4[1] << bcd_to_seven_seg:ad2.seg
+segv4[2] << bcd_to_seven_seg:ad2.seg
+segv4[3] << bcd_to_seven_seg:ad2.seg
+segv4[4] << bcd_to_seven_seg:ad2.seg
+segv4[5] << bcd_to_seven_seg:ad2.seg
+segv4[6] << bcd_to_seven_seg:ad2.seg
+segv5[0] << bcd_to_seven_seg:comb_6.seg
+segv5[1] << bcd_to_seven_seg:comb_6.seg
+segv5[2] << bcd_to_seven_seg:comb_6.seg
+segv5[3] << bcd_to_seven_seg:comb_6.seg
+segv5[4] << bcd_to_seven_seg:comb_6.seg
+segv5[5] << bcd_to_seven_seg:comb_6.seg
+segv5[6] << bcd_to_seven_seg:comb_6.seg
+segv6[0] << bcd_to_seven_seg:comb_7.seg
+segv6[1] << bcd_to_seven_seg:comb_7.seg
+segv6[2] << bcd_to_seven_seg:comb_7.seg
+segv6[3] << bcd_to_seven_seg:comb_7.seg
+segv6[4] << bcd_to_seven_seg:comb_7.seg
+segv6[5] << bcd_to_seven_seg:comb_7.seg
+segv6[6] << bcd_to_seven_seg:comb_7.seg
+a8_inv[0] => ~NO_FANOUT~
+a8_inv[1] => ~NO_FANOUT~
+a8_inv[2] => ~NO_FANOUT~
+a8_inv[3] => ~NO_FANOUT~
+a8_inv[4] => ~NO_FANOUT~
+a8_inv[5] => ~NO_FANOUT~
+a8_inv[6] => ~NO_FANOUT~
+a8_inv[7] => ~NO_FANOUT~
+b8_inv[0] => ~NO_FANOUT~
+b8_inv[1] => ~NO_FANOUT~
+b8_inv[2] => ~NO_FANOUT~
+b8_inv[3] => ~NO_FANOUT~
+b8_inv[4] => ~NO_FANOUT~
+b8_inv[5] => ~NO_FANOUT~
+b8_inv[6] => ~NO_FANOUT~
+b8_inv[7] => ~NO_FANOUT~
+cin8_inv => cin8_inv.IN1
+sum12_ouvt[0] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[1] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[2] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[3] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[4] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[5] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[6] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[7] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[8] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[9] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[10] << bcdAdder:comb_5.sum12_out
+sum12_ouvt[11] << bcdAdder:comb_5.sum12_out
+sum8_outv[0] << bcdAdder:comb_5.sum8_out
+sum8_outv[1] << bcdAdder:comb_5.sum8_out
+sum8_outv[2] << bcdAdder:comb_5.sum8_out
+sum8_outv[3] << bcdAdder:comb_5.sum8_out
+sum8_outv[4] << bcdAdder:comb_5.sum8_out
+sum8_outv[5] << bcdAdder:comb_5.sum8_out
+sum8_outv[6] << bcdAdder:comb_5.sum8_out
+sum8_outv[7] << bcdAdder:comb_5.sum8_out
+cout8_outv << bcdAdder:comb_5.cout8_out
+av[0] << <GND>
+av[1] << <GND>
+av[2] << <GND>
+av[3] << <GND>
+bv[0] << <GND>
+bv[1] << <GND>
+bv[2] << <GND>
+bv[3] << <GND>
+addv => addv.IN3
+switchv => switchv.IN2
+
+
+|system|random:random1
+CLOCK_50 => Q[0]~reg0.CLK
+CLOCK_50 => Q[1]~reg0.CLK
+CLOCK_50 => Q[2]~reg0.CLK
+CLOCK_50 => Q[3]~reg0.CLK
+Preset => y[3].OUTPUTSELECT
+Preset => y[2].OUTPUTSELECT
+Preset => y[1].OUTPUTSELECT
+Preset => y[0].OUTPUTSELECT
+Preset => p[3].IN1
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[0] <= p[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= p[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+p[2] <= p[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+p[3] <= p[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|Binary2BCD:comb_3
+bin[0] => bcd[0].DATAIN
+bin[1] => LessThan1.IN8
+bin[1] => Add1.IN8
+bin[1] => bcd.DATAA
+bin[2] => LessThan0.IN6
+bin[2] => Add0.IN6
+bin[2] => bcd.DATAA
+bin[3] => LessThan0.IN5
+bin[3] => Add0.IN5
+bin[3] => bcd.DATAA
+bin[4] => LessThan0.IN4
+bin[4] => Add0.IN4
+bin[4] => bcd.DATAA
+bcd[0] <= bin[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd[1] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[2] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[3] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[4] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[5] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[6] <= <GND>
+bcd[7] <= <GND>
+
+
+|system|random2:random2
+CLOCK_50 => Q[0]~reg0.CLK
+CLOCK_50 => Q[1]~reg0.CLK
+CLOCK_50 => Q[2]~reg0.CLK
+CLOCK_50 => Q[3]~reg0.CLK
+Preset => y[3].OUTPUTSELECT
+Preset => y[2].OUTPUTSELECT
+Preset => y[1].OUTPUTSELECT
+Preset => y[0].OUTPUTSELECT
+Preset => p[3].IN1
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p[0] <= p[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= p[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+p[2] <= p[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+p[3] <= p[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|Binary2BCD:comb_4
+bin[0] => bcd[0].DATAIN
+bin[1] => LessThan1.IN8
+bin[1] => Add1.IN8
+bin[1] => bcd.DATAA
+bin[2] => LessThan0.IN6
+bin[2] => Add0.IN6
+bin[2] => bcd.DATAA
+bin[3] => LessThan0.IN5
+bin[3] => Add0.IN5
+bin[3] => bcd.DATAA
+bin[4] => LessThan0.IN4
+bin[4] => Add0.IN4
+bin[4] => bcd.DATAA
+bcd[0] <= bin[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd[1] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[2] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[3] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[4] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[5] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[6] <= <GND>
+bcd[7] <= <GND>
+
+
+|system|bcd_to_seven_seg:add1
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[0] => Mux7.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[1] => Mux7.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[2] => Mux7.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+bcd[3] => Mux7.IN16
+switch => seg[0]~reg0.CLK
+switch => seg[1]~reg0.CLK
+switch => seg[2]~reg0.CLK
+switch => seg[3]~reg0.CLK
+switch => seg[4]~reg0.CLK
+switch => seg[5]~reg0.CLK
+switch => seg[6]~reg0.CLK
+seg[0] <= seg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= seg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= seg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= seg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= seg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= seg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= seg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sego[0] <= sego[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[1] <= sego[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[2] <= sego[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[3] <= sego[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[4] <= sego[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[5] <= sego[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[6] <= sego[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcd_to_seven_seg:ad2
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[0] => Mux7.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[1] => Mux7.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[2] => Mux7.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+bcd[3] => Mux7.IN16
+switch => seg[0]~reg0.CLK
+switch => seg[1]~reg0.CLK
+switch => seg[2]~reg0.CLK
+switch => seg[3]~reg0.CLK
+switch => seg[4]~reg0.CLK
+switch => seg[5]~reg0.CLK
+switch => seg[6]~reg0.CLK
+seg[0] <= seg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= seg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= seg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= seg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= seg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= seg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= seg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sego[0] <= sego[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[1] <= sego[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[2] <= sego[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[3] <= sego[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[4] <= sego[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[5] <= sego[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[6] <= sego[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcd_to_seven_seg:btoseven
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[0] => Mux7.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[1] => Mux7.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[2] => Mux7.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+bcd[3] => Mux7.IN16
+switch => seg[0]~reg0.CLK
+switch => seg[1]~reg0.CLK
+switch => seg[2]~reg0.CLK
+switch => seg[3]~reg0.CLK
+switch => seg[4]~reg0.CLK
+switch => seg[5]~reg0.CLK
+switch => seg[6]~reg0.CLK
+seg[0] <= seg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= seg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= seg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= seg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= seg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= seg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= seg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sego[0] <= sego[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[1] <= sego[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[2] <= sego[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[3] <= sego[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[4] <= sego[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[5] <= sego[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[6] <= sego[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcd_to_seven_seg:btosevento
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[0] => Mux7.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[1] => Mux7.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[2] => Mux7.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+bcd[3] => Mux7.IN16
+switch => seg[0]~reg0.CLK
+switch => seg[1]~reg0.CLK
+switch => seg[2]~reg0.CLK
+switch => seg[3]~reg0.CLK
+switch => seg[4]~reg0.CLK
+switch => seg[5]~reg0.CLK
+switch => seg[6]~reg0.CLK
+seg[0] <= seg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= seg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= seg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= seg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= seg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= seg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= seg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sego[0] <= sego[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[1] <= sego[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[2] <= sego[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[3] <= sego[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[4] <= sego[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[5] <= sego[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[6] <= sego[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5
+a8_in[0] => a8_in[0].IN1
+a8_in[1] => a8_in[1].IN1
+a8_in[2] => a8_in[2].IN1
+a8_in[3] => a8_in[3].IN1
+a8_in[4] => a8_in[4].IN1
+a8_in[5] => a8_in[5].IN1
+a8_in[6] => a8_in[6].IN1
+a8_in[7] => a8_in[7].IN1
+b8_in[0] => b8_in[0].IN1
+b8_in[1] => b8_in[1].IN1
+b8_in[2] => b8_in[2].IN1
+b8_in[3] => b8_in[3].IN1
+b8_in[4] => b8_in[4].IN1
+b8_in[5] => b8_in[5].IN1
+b8_in[6] => b8_in[6].IN1
+b8_in[7] => b8_in[7].IN1
+sum12_out[0] <= fourBitAdder:fba2.sum4_out
+sum12_out[1] <= fourBitAdder:fba2.sum4_out
+sum12_out[2] <= fourBitAdder:fba2.sum4_out
+sum12_out[3] <= fourBitAdder:fba2.sum4_out
+sum12_out[4] <= fourBitAdder:fba3.sum4_out
+sum12_out[5] <= fourBitAdder:fba3.sum4_out
+sum12_out[6] <= fourBitAdder:fba3.sum4_out
+sum12_out[7] <= fourBitAdder:fba3.sum4_out
+sum12_out[8] <= sum12_out[8].DB_MAX_OUTPUT_PORT_TYPE
+sum12_out[9] <= <GND>
+sum12_out[10] <= <GND>
+sum12_out[11] <= <GND>
+cout8_out <= <GND>
+cin8_in => cin8_in.IN1
+a[0] <= a[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a[1] <= a[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a[2] <= a[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a[3] <= a[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b[0] <= b[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= b[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= b[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= b[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+add => b[0]~reg0.CLK
+add => b[1]~reg0.CLK
+add => b[2]~reg0.CLK
+add => b[3]~reg0.CLK
+add => a[0]~reg0.CLK
+add => a[1]~reg0.CLK
+add => a[2]~reg0.CLK
+add => a[3]~reg0.CLK
+sum8_out[0] <= fourBitAdder:fba2.sum4_out
+sum8_out[1] <= fourBitAdder:fba2.sum4_out
+sum8_out[2] <= fourBitAdder:fba2.sum4_out
+sum8_out[3] <= fourBitAdder:fba2.sum4_out
+sum8_out[4] <= fourBitAdder:fba3.sum4_out
+sum8_out[5] <= fourBitAdder:fba3.sum4_out
+sum8_out[6] <= fourBitAdder:fba3.sum4_out
+sum8_out[7] <= fourBitAdder:fba3.sum4_out
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba0
+a4_in[0] => a4_in[0].IN1
+a4_in[1] => a4_in[1].IN1
+a4_in[2] => a4_in[2].IN1
+a4_in[3] => a4_in[3].IN1
+b4_in[0] => b4_in[0].IN1
+b4_in[1] => b4_in[1].IN1
+b4_in[2] => b4_in[2].IN1
+b4_in[3] => b4_in[3].IN1
+sum4_out[0] <= fullAdder:fa0.sum_out
+sum4_out[1] <= fullAdder:fa1.sum_out
+sum4_out[2] <= fullAdder:fa2.sum_out
+sum4_out[3] <= fullAdder:fa3.sum_out
+cin4_in => cin4_in.IN1
+cout4_out <= fullAdder:fa3.cout_out
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba0|fullAdder:fa0
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba0|fullAdder:fa1
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba0|fullAdder:fa2
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba0|fullAdder:fa3
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba1
+a4_in[0] => a4_in[0].IN1
+a4_in[1] => a4_in[1].IN1
+a4_in[2] => a4_in[2].IN1
+a4_in[3] => a4_in[3].IN1
+b4_in[0] => b4_in[0].IN1
+b4_in[1] => b4_in[1].IN1
+b4_in[2] => b4_in[2].IN1
+b4_in[3] => b4_in[3].IN1
+sum4_out[0] <= fullAdder:fa0.sum_out
+sum4_out[1] <= fullAdder:fa1.sum_out
+sum4_out[2] <= fullAdder:fa2.sum_out
+sum4_out[3] <= fullAdder:fa3.sum_out
+cin4_in => cin4_in.IN1
+cout4_out <= fullAdder:fa3.cout_out
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba1|fullAdder:fa0
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba1|fullAdder:fa1
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba1|fullAdder:fa2
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba1|fullAdder:fa3
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba2
+a4_in[0] => a4_in[0].IN1
+a4_in[1] => a4_in[1].IN1
+a4_in[2] => a4_in[2].IN1
+a4_in[3] => a4_in[3].IN1
+b4_in[0] => b4_in[0].IN1
+b4_in[1] => b4_in[1].IN1
+b4_in[2] => b4_in[2].IN1
+b4_in[3] => b4_in[3].IN1
+sum4_out[0] <= fullAdder:fa0.sum_out
+sum4_out[1] <= fullAdder:fa1.sum_out
+sum4_out[2] <= fullAdder:fa2.sum_out
+sum4_out[3] <= fullAdder:fa3.sum_out
+cin4_in => cin4_in.IN1
+cout4_out <= fullAdder:fa3.cout_out
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba2|fullAdder:fa0
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba2|fullAdder:fa1
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba2|fullAdder:fa2
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba2|fullAdder:fa3
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba3
+a4_in[0] => a4_in[0].IN1
+a4_in[1] => a4_in[1].IN1
+a4_in[2] => a4_in[2].IN1
+a4_in[3] => a4_in[3].IN1
+b4_in[0] => b4_in[0].IN1
+b4_in[1] => b4_in[1].IN1
+b4_in[2] => b4_in[2].IN1
+b4_in[3] => b4_in[3].IN1
+sum4_out[0] <= fullAdder:fa0.sum_out
+sum4_out[1] <= fullAdder:fa1.sum_out
+sum4_out[2] <= fullAdder:fa2.sum_out
+sum4_out[3] <= fullAdder:fa3.sum_out
+cin4_in => cin4_in.IN1
+cout4_out <= fullAdder:fa3.cout_out
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba3|fullAdder:fa0
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba3|fullAdder:fa1
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba3|fullAdder:fa2
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcdAdder:comb_5|fourBitAdder:fba3|fullAdder:fa3
+a_in => sum_out.IN0
+a_in => cout_out.IN0
+a_in => cout_out.IN0
+b_in => sum_out.IN1
+b_in => cout_out.IN1
+b_in => cout_out.IN0
+cin_in => sum_out.IN1
+cin_in => cout_out.IN1
+cin_in => cout_out.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+cout_out <= cout_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcd_to_seven_seg:comb_6
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[0] => Mux7.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[1] => Mux7.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[2] => Mux7.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+bcd[3] => Mux7.IN16
+switch => seg[0]~reg0.CLK
+switch => seg[1]~reg0.CLK
+switch => seg[2]~reg0.CLK
+switch => seg[3]~reg0.CLK
+switch => seg[4]~reg0.CLK
+switch => seg[5]~reg0.CLK
+switch => seg[6]~reg0.CLK
+seg[0] <= seg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= seg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= seg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= seg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= seg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= seg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= seg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sego[0] <= sego[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[1] <= sego[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[2] <= sego[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[3] <= sego[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[4] <= sego[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[5] <= sego[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[6] <= sego[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|system|bcd_to_seven_seg:comb_7
+bcd[0] => Mux0.IN19
+bcd[0] => Mux1.IN19
+bcd[0] => Mux2.IN19
+bcd[0] => Mux3.IN19
+bcd[0] => Mux4.IN19
+bcd[0] => Mux5.IN19
+bcd[0] => Mux6.IN19
+bcd[0] => Mux7.IN19
+bcd[1] => Mux0.IN18
+bcd[1] => Mux1.IN18
+bcd[1] => Mux2.IN18
+bcd[1] => Mux3.IN18
+bcd[1] => Mux4.IN18
+bcd[1] => Mux5.IN18
+bcd[1] => Mux6.IN18
+bcd[1] => Mux7.IN18
+bcd[2] => Mux0.IN17
+bcd[2] => Mux1.IN17
+bcd[2] => Mux2.IN17
+bcd[2] => Mux3.IN17
+bcd[2] => Mux4.IN17
+bcd[2] => Mux5.IN17
+bcd[2] => Mux6.IN17
+bcd[2] => Mux7.IN17
+bcd[3] => Mux0.IN16
+bcd[3] => Mux1.IN16
+bcd[3] => Mux2.IN16
+bcd[3] => Mux3.IN16
+bcd[3] => Mux4.IN16
+bcd[3] => Mux5.IN16
+bcd[3] => Mux6.IN16
+bcd[3] => Mux7.IN16
+switch => seg[0]~reg0.CLK
+switch => seg[1]~reg0.CLK
+switch => seg[2]~reg0.CLK
+switch => seg[3]~reg0.CLK
+switch => seg[4]~reg0.CLK
+switch => seg[5]~reg0.CLK
+switch => seg[6]~reg0.CLK
+seg[0] <= seg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= seg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= seg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= seg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= seg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= seg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= seg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sego[0] <= sego[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[1] <= sego[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[2] <= sego[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[3] <= sego[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[4] <= sego[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[5] <= sego[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+sego[6] <= sego[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

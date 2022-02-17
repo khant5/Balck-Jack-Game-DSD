@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at lfsr.v(22): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at lfsrv1.v(6): always construct contains both blocking and non-blocking assignments

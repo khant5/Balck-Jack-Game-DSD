@@ -1,0 +1,7 @@
+Info (10281): Verilog HDL Declaration information at system.sv(23): object "Hex2" differs only in case from object "hex2" in the same scope
+Warning (10268): Verilog HDL information at random3.v(17): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at random.v(15): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at random2.v(17): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at random4.v(23): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at random5.v(23): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at random6.v(17): always construct contains both blocking and non-blocking assignments

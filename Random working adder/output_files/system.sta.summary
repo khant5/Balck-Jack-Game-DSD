@@ -1,0 +1,377 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'switch3'
+Slack : -9.364
+TNS   : -77.953
+
+Type  : Slow 1200mV 85C Model Setup 'sw4'
+Slack : -6.924
+TNS   : -152.561
+
+Type  : Slow 1200mV 85C Model Setup 'switch'
+Slack : -6.635
+TNS   : -111.398
+
+Type  : Slow 1200mV 85C Model Setup 'addv'
+Slack : -6.382
+TNS   : -149.831
+
+Type  : Slow 1200mV 85C Model Setup 'Clockd'
+Slack : -3.970
+TNS   : -50.596
+
+Type  : Slow 1200mV 85C Model Setup 'Clockv'
+Slack : -3.839
+TNS   : -49.532
+
+Type  : Slow 1200mV 85C Model Setup 'Presetv'
+Slack : -1.411
+TNS   : -13.388
+
+Type  : Slow 1200mV 85C Model Setup 'cout'
+Slack : -0.264
+TNS   : -1.057
+
+Type  : Slow 1200mV 85C Model Setup 'coutd'
+Slack : -0.237
+TNS   : -0.662
+
+Type  : Slow 1200mV 85C Model Hold 'addv'
+Slack : -1.746
+TNS   : -14.721
+
+Type  : Slow 1200mV 85C Model Hold 'switch'
+Slack : -1.187
+TNS   : -9.764
+
+Type  : Slow 1200mV 85C Model Hold 'sw4'
+Slack : -0.950
+TNS   : -11.758
+
+Type  : Slow 1200mV 85C Model Hold 'Presetv'
+Slack : -0.037
+TNS   : -0.037
+
+Type  : Slow 1200mV 85C Model Hold 'switch3'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cout'
+Slack : 0.284
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clockv'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'coutd'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clockd'
+Slack : 0.585
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'switch3'
+Slack : -2.392
+TNS   : -6.555
+
+Type  : Slow 1200mV 85C Model Recovery 'switch'
+Slack : -1.628
+TNS   : -10.193
+
+Type  : Slow 1200mV 85C Model Removal 'switch'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'switch3'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clockd'
+Slack : -3.000
+TNS   : -36.410
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clockv'
+Slack : -3.000
+TNS   : -36.410
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'switch3'
+Slack : -3.000
+TNS   : -11.995
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'addv'
+Slack : -3.000
+TNS   : -10.710
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Presetv'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sw4'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'switch'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cout'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'coutd'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Setup 'switch3'
+Slack : -8.504
+TNS   : -69.875
+
+Type  : Slow 1200mV 0C Model Setup 'sw4'
+Slack : -6.541
+TNS   : -142.815
+
+Type  : Slow 1200mV 0C Model Setup 'switch'
+Slack : -6.275
+TNS   : -102.035
+
+Type  : Slow 1200mV 0C Model Setup 'addv'
+Slack : -5.945
+TNS   : -138.066
+
+Type  : Slow 1200mV 0C Model Setup 'Clockd'
+Slack : -3.574
+TNS   : -43.133
+
+Type  : Slow 1200mV 0C Model Setup 'Clockv'
+Slack : -3.465
+TNS   : -42.124
+
+Type  : Slow 1200mV 0C Model Setup 'Presetv'
+Slack : -1.174
+TNS   : -11.181
+
+Type  : Slow 1200mV 0C Model Setup 'cout'
+Slack : -0.296
+TNS   : -1.262
+
+Type  : Slow 1200mV 0C Model Setup 'coutd'
+Slack : -0.271
+TNS   : -0.826
+
+Type  : Slow 1200mV 0C Model Hold 'addv'
+Slack : -1.538
+TNS   : -12.008
+
+Type  : Slow 1200mV 0C Model Hold 'switch'
+Slack : -0.932
+TNS   : -7.208
+
+Type  : Slow 1200mV 0C Model Hold 'sw4'
+Slack : -0.846
+TNS   : -9.242
+
+Type  : Slow 1200mV 0C Model Hold 'Presetv'
+Slack : -0.112
+TNS   : -0.112
+
+Type  : Slow 1200mV 0C Model Hold 'switch3'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cout'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clockv'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'coutd'
+Slack : 0.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clockd'
+Slack : 0.561
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'switch3'
+Slack : -2.108
+TNS   : -5.591
+
+Type  : Slow 1200mV 0C Model Recovery 'switch'
+Slack : -1.347
+TNS   : -8.282
+
+Type  : Slow 1200mV 0C Model Removal 'switch'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'switch3'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clockd'
+Slack : -3.000
+TNS   : -36.410
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clockv'
+Slack : -3.000
+TNS   : -36.410
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'switch3'
+Slack : -3.000
+TNS   : -11.995
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'addv'
+Slack : -3.000
+TNS   : -10.710
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Presetv'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sw4'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'switch'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cout'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'coutd'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Fast 1200mV 0C Model Setup 'switch3'
+Slack : -4.183
+TNS   : -32.196
+
+Type  : Fast 1200mV 0C Model Setup 'sw4'
+Slack : -2.791
+TNS   : -58.094
+
+Type  : Fast 1200mV 0C Model Setup 'addv'
+Slack : -2.735
+TNS   : -59.708
+
+Type  : Fast 1200mV 0C Model Setup 'switch'
+Slack : -2.618
+TNS   : -38.227
+
+Type  : Fast 1200mV 0C Model Setup 'Clockd'
+Slack : -1.453
+TNS   : -12.130
+
+Type  : Fast 1200mV 0C Model Setup 'Clockv'
+Slack : -1.379
+TNS   : -11.698
+
+Type  : Fast 1200mV 0C Model Setup 'Presetv'
+Slack : -0.297
+TNS   : -1.540
+
+Type  : Fast 1200mV 0C Model Setup 'coutd'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'cout'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'addv'
+Slack : -1.153
+TNS   : -11.386
+
+Type  : Fast 1200mV 0C Model Hold 'switch'
+Slack : -0.836
+TNS   : -8.296
+
+Type  : Fast 1200mV 0C Model Hold 'sw4'
+Slack : -0.711
+TNS   : -10.307
+
+Type  : Fast 1200mV 0C Model Hold 'Presetv'
+Slack : -0.048
+TNS   : -0.048
+
+Type  : Fast 1200mV 0C Model Hold 'cout'
+Slack : -0.036
+TNS   : -0.051
+
+Type  : Fast 1200mV 0C Model Hold 'coutd'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'switch3'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clockv'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clockd'
+Slack : 0.117
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'switch3'
+Slack : -1.453
+TNS   : -4.196
+
+Type  : Fast 1200mV 0C Model Recovery 'switch'
+Slack : -1.011
+TNS   : -6.784
+
+Type  : Fast 1200mV 0C Model Removal 'switch'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'switch3'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clockv'
+Slack : -3.000
+TNS   : -30.570
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clockd'
+Slack : -3.000
+TNS   : -30.467
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'switch3'
+Slack : -3.000
+TNS   : -11.307
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'addv'
+Slack : -3.000
+TNS   : -9.649
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sw4'
+Slack : -3.000
+TNS   : -6.957
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'switch'
+Slack : -3.000
+TNS   : -6.336
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Presetv'
+Slack : -3.000
+TNS   : -4.937
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cout'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'coutd'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------

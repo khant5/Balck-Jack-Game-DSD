@@ -1,0 +1,23 @@
+module clock(CLOCK_50);
+	input CLOCK_50;
+	
+	reg [24:0] counter;
+	reg cout;
+initial begin
+cout=0;
+counter=0;
+end
+always @(posedge CLOCK_50)
+
+begin
+	if(counter==0)
+	begin	counter<=24999999;
+	cout<=~cout;
+	end
+	else
+	begin	counter<=counter-1;
+	end
+end
+	
+	
+endmodule 	  

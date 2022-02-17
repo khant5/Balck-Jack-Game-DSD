@@ -1,0 +1,62 @@
+module random1(Preset, ClOCK2_50, Q,);
+input Preset;
+input ClOCK2_50;
+output reg[3:0]Q;
+reg[3:0]y;
+//output reg[3:0]L;
+
+	
+	always
+		
+	
+		begin
+		if(Preset==1) y<=4'b1;
+
+	else 
+		begin
+
+			y[3] = (Q[1]^Q[0]);
+			y[2] = Q[3];
+			y[1] = Q[2];
+			y[0] = Q[1];
+			
+	
+			
+			
+		end
+	end
+
+	always @(posedge ClOCK2_50)
+		begin
+					Q[3:0]<=y[3:0];	
+	
+	
+	
+			
+			
+			
+		
+		end
+
+	
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+/*
+if(y[3:0]==2'b1100)L[3:0]<=2'b0100;
+			if(y[3:0]==2'b1011)L[3:0]<=2'b0011;
+			if(y[3:0]==2'b1010)L[3:0]<=2'b0001;
+			if(y[3:0]==2'b1101)L[3:0]<=2'b1001;
+
+			if(y[3:0]==2'b1110)L[3:0]<=2'b1000;
+			if(y[3:0]==2'b1111)L[3:0]<=2'b0111;
+			*/

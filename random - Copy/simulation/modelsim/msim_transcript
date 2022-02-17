@@ -1,0 +1,24 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do random_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/Files\ for\ school/Digital\ Systems/random {E:/Files for school/Digital Systems/random/random.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 22:12:02 on Dec 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Files for school/Digital Systems/random" E:/Files for school/Digital Systems/random/random.v 
+# -- Compiling module random
+# 
+# Top level modules:
+# 	random
+# End time: 22:12:03 on Dec 04,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

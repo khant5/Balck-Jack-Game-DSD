@@ -1,0 +1,155 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+# Date created = 23:43:23  November 26, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		random_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY system
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:43:23  NOVEMBER 26, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE random.v
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name CDF_FILE output_files/Chain6.cdf
+set_global_assignment -name CDF_FILE output_files/Chain7.cdf
+set_global_assignment -name CDF_FILE output_files/Chain8.cdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform6.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform7.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform8.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform9.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform10.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform11.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform12.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform13.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform14.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform15.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform16.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform17.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform18.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform19.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform20.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform21.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform22.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform23.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform24.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform25.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform26.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform27.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform28.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform29.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform30.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform31.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform32.vwf
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_global_assignment -name CDF_FILE output_files/Chain3.cdf
+set_global_assignment -name CDF_FILE output_files/Chain4.cdf
+set_global_assignment -name CDF_FILE output_files/Chain5.cdf
+set_global_assignment -name CDF_FILE output_files/Chain9.cdf
+set_global_assignment -name VERILOG_FILE output_files/system_de2.v
+set_global_assignment -name VERILOG_FILE output_files/system.v
+set_global_assignment -name VERILOG_FILE output_files/flip_flop.v
+set_global_assignment -name CDF_FILE output_files/Chain10.cdf
+set_global_assignment -name CDF_FILE output_files/Chain11.cdf
+set_global_assignment -name CDF_FILE output_files/Chain12.cdf
+set_global_assignment -name CDF_FILE output_files/13.cdf
+set_global_assignment -name CDF_FILE output_files/14.cdf
+set_global_assignment -name CDF_FILE output_files/Chain113.cdf
+set_global_assignment -name CDF_FILE output_files/Chain13.cdf
+set_global_assignment -name CDF_FILE output_files/Chain17.cdf
+set_global_assignment -name CDF_FILE output_files/Chain18.cdf
+set_global_assignment -name CDF_FILE output_files/Chain41.cdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform33.vwf
+set_global_assignment -name VERILOG_FILE random1.v
+set_global_assignment -name CDF_FILE Chain1.cdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform5.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform34.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform35.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform36.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform37.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform38.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform39.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform40.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform41.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform42.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform43.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform44.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform45.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform46.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform47.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform48.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform49.vwf
+set_global_assignment -name VERILOG_FILE output_files/Binary2BCD.v
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name VERILOG_FILE output_files/bcd_to_seven_seg.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AD17 -to segv[0]
+set_location_assignment PIN_AE17 -to segv[1]
+set_location_assignment PIN_AG17 -to segv[2]
+set_location_assignment PIN_AH17 -to segv[3]
+set_location_assignment PIN_AF17 -to segv[4]
+set_location_assignment PIN_AG18 -to segv[5]
+set_location_assignment PIN_AA14 -to segv[6]
+set_location_assignment PIN_G19 -to pv[0]
+set_location_assignment PIN_F19 -to pv[1]
+set_location_assignment PIN_E19 -to pv[2]
+set_location_assignment PIN_F21 -to pv[3]
+set_location_assignment PIN_M23 -to Clockv
+set_location_assignment PIN_AB28 -to Presetv
+set_global_assignment -name CDF_FILE output_files/Chain14.cdf
+set_global_assignment -name CDF_FILE output_files/Chain15.cdf
+set_global_assignment -name CDF_FILE output_files/Chain16.cdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

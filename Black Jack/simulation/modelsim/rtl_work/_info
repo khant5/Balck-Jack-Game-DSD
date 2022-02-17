@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Files for school/Digital Systems/Black Jack/simulation/modelsim
+vBlackJack
+!s110 1574735134
+!i10b 1
+!s100 zbLGORIi=Rkz7zWn[@Gkf3
+IA=ccZ>:f][Tnbkm_?Eh[L1
+V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1574734532
+8F:/Files for school/Digital Systems/Black Jack/lfsr.v
+FF:/Files for school/Digital Systems/Black Jack/lfsr.v
+L0 7
+OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1574735134.190000
+!s107 F:/Files for school/Digital Systems/Black Jack/lfsr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Files for school/Digital Systems/Black Jack|F:/Files for school/Digital Systems/Black Jack/lfsr.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+F:/Files for school/Digital Systems/Black Jack}
+n@black@jack

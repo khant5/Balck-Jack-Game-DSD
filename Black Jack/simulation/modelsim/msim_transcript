@@ -1,0 +1,25 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do BlackJack_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/Files\ for\ school/Digital\ Systems/Black\ Jack {F:/Files for school/Digital Systems/Black Jack/lfsr.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:25:34 on Nov 25,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Files for school/Digital Systems/Black Jack" F:/Files for school/Digital Systems/Black Jack/lfsr.v 
+# -- Compiling module BlackJack
+# 
+# Top level modules:
+# 	BlackJack
+# End time: 21:25:34 on Nov 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

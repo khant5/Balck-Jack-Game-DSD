@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Files for school/Digital Systems/FullAdder/simulation/qsim
+vFullAdder
+Z1 !s110 1574682648
+!i10b 1
+!s100 lf[ejO65;?V8]ie6U>U[@2
+I8S=AJ;V6=V@inoU:C?CTT1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1574682630
+8FullAdder.vo
+FFullAdder.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1574682644.961000
+!s107 FullAdder.vo|
+!s90 -work|work|FullAdder.vo|
+!i113 1
+Z4 o-work work
+n@full@adder
+vFullAdder_vlg_check_tst
+Z5 !s110 1574682649
+!i10b 1
+!s100 67if9gMK5dZ4<V8iXbD9N2
+I`CV>0RKVRL7;LzNjQPKk81
+R2
+R0
+Z6 w1574682624
+Z7 8Waveform2.vwf.vt
+Z8 FWaveform2.vwf.vt
+L0 60
+R3
+r1
+!s85 0
+31
+Z9 !s108 1574682648.758000
+Z10 !s107 Waveform2.vwf.vt|
+Z11 !s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R4
+n@full@adder_vlg_check_tst
+vFullAdder_vlg_sample_tst
+R1
+!i10b 1
+!s100 ji9j01e9^=k[CnP8Z;^iL3
+IDgO@TFjA[8Y4EEcY64e[B2
+R2
+R0
+R6
+R7
+R8
+L0 30
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+n@full@adder_vlg_sample_tst
+vFullAdder_vlg_vec_tst
+R5
+!i10b 1
+!s100 A6T?zDOgWRTSzaGNG<4];2
+IRPZ^[;JTPPk32=a9ZSDeV2
+R2
+R0
+R6
+R7
+R8
+L0 182
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+n@full@adder_vlg_vec_tst

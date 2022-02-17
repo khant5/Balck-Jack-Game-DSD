@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Files for school/Digital Systems/Random test6/simulation/modelsim
+vsystem
+!s110 1576100563
+!i10b 1
+!s100 9Y_d0FXT`_W_g^;?U[01Q3
+I7aMGaj<DWmjGhfgS[5PcH0
+V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1576093724
+8system_7_1200mv_85c_slow.vo
+Fsystem_7_1200mv_85c_slow.vo
+L0 32
+OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1576100562.725000
+!s107 system_7_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|system_7_1200mv_85c_slow.vo|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.

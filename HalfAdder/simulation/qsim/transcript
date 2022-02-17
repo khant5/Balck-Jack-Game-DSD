@@ -1,0 +1,43 @@
+# do HalfAdder.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:21:22 on Nov 25,2019
+# vlog -work work HalfAdder.vo 
+# -- Compiling module HalfAdder
+# 
+# Top level modules:
+# 	HalfAdder
+# End time: 18:21:23 on Nov 25,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:21:23 on Nov 25,2019
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module HalfAdder_vlg_sample_tst
+# -- Compiling module HalfAdder_vlg_check_tst
+# -- Compiling module HalfAdder_vlg_vec_tst
+# 
+# Top level modules:
+# 	HalfAdder_vlg_vec_tst
+# End time: 18:21:23 on Nov 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "HalfAdder.do" 
+# Start time: 18:21:23 on Nov 25,2019
+# Loading work.HalfAdder_vlg_vec_tst
+# Loading work.HalfAdder
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading work.HalfAdder_vlg_sample_tst
+# Loading work.HalfAdder_vlg_check_tst
+# SDF 10.3d Compiler 2014.10 Oct  7 2014
+# 
+# Loading instances from HalfAdder_v.sdo
+# Loading timing data from HalfAdder_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /HalfAdder_vlg_vec_tst File: Waveform1.vwf.vt
+# Simulation passed !
+# ** Note: $finish    : Waveform1.vwf.vt(178)
+#    Time: 1 us  Iteration: 0  Instance: /HalfAdder_vlg_vec_tst/tb_out
+# End time: 18:21:24 on Nov 25,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
